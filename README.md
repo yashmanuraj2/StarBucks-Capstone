@@ -17,7 +17,7 @@
    5. Results 
    
    
-                                  PROJECT DESCRIPTION 
+  #                                PROJECT DESCRIPTION 
    
    
    The Data contains 3  files 
@@ -48,7 +48,7 @@ time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 
-                                  Acknowledgement
+ #                                 Acknowledgement
                                 
 I would Like to thanks Udacity for giving me this great project as the final Project for my nanodegree program. I would like to thank project partner Starbucks for sharing the data so that it is available to students of the classroom to study.                            
                                                    
