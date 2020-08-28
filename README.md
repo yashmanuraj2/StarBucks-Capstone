@@ -56,7 +56,7 @@ I would Like to thanks Udacity for giving me this great project as the final Pro
 
 To create a machine learning model to predict how user responds to the offers of buy one get one free and discount offer based on users demographic variables like age gender income ,number of days since member etc.
 
-#LIBRARIES USED 
+#                              LIBRARIES USED 
 
 pandas
 numpy
