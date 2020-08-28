@@ -1,18 +1,24 @@
 # StarBucks-Capstone Challenge
-
+                                        CLONE THE REPOSITORY using 'git clone https://github.com/yashmanuraj2/StarBucks-Capstone.git'
+                                        Download the Transcripts file from the given Link https://drive.google.com/file/d/1NkL6wKn42av_Dsg-TFd-4lrW_JLkmfW3/view?usp=sharing
+                                        Paste the transcript.json in the data folder and run the notebook
+                                            
    
-   Table of Contents :
+   Table of Contents :                  
    
    1.  Project Description
+   
+   2. Acknowledgement
       
-   2.   AIM
+   3.  AIM
    
-   3. Libraries Used
+   4 . Libraries Used
    
-   4. Results 
+   5. Results 
    
    
- #PROJECT DESCRIPTION 
+                                PROJECT DESCRIPTION 
+   
    
    The Data contains 3  files 
    1. Profile.csv
@@ -40,8 +46,13 @@ event (str) - record description (ie transaction, offer received, offer viewed, 
 person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
-   
-#AIM OF THE PROJECT 
+
+
+                                Acknowledgement
+                                
+I would Like to thanks Udacity for giving me this great project as the final Project for my nanodegree program. I would like to thank project partner Starbucks for sharing the data so that it is available to students of the classroom to study.                            
+                                                   
+#                                AIM OF THE PROJECT 
 
 To create a machine learning model to predict how user responds to the offers of buy one get one free and discount offer based on users demographic variables like age gender income ,number of days since member etc.
 
@@ -63,7 +74,7 @@ sklearn.svm import SVC
  sklearn.model_selection import train_test_split,GridSearchCV
 warnings.filterwarnings("ignore")
  
- #4.Results
+ #                                Results
  
  The model was trained on various  algorithms using default parameters( Tried  GridSeacrhCv  but was taking a lot of time and model gave a pretty good accuraacy on default parameters so 
  i chose not to use gridSearch on my model) 
